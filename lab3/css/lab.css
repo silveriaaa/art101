@@ -4,6 +4,25 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #3ca6b4;
+    background-color: #a1c0f1;
   }
+#files {
+    margin: 10px;
+    width: 600px;
+}
+
+#homepage {
+    margin: 10px;
+    width:600px;
+}
+
+#lab3 {
+    margin: 10px;
+    width: 600px;
+}
+
+#webpage {
+    margin: 10px;
+    width: 600px;
+}

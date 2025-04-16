@@ -1,9 +1,42 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+    color: rgb(15, 15, 83);
+    font-family:'trattatello, fantasy';
+    font-style: oblique;
+    
+}
+
+
+h1 {
+    color: rgb(115, 18, 115);
+    font-size: 300%;
+    font-family: 'trattatello, fantasy';
+    font-weight: 300;
+    font-style: italic;
+}
+
+p {
+  color: rgb(168, 97, 139);
+  font-family: 'georgia', serif;;
+  text-indent: 20px;
+  margin-left: 10px;
+}
+
+#content {
+    background-color: rgba(171, 225, 225, 0.76);
+    width: 1200px;
+    min-height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: solid 5px #756da6;
+    font-size: 20px;
+    
+}
+
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
+    padding: 40px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 5px #747fe1;
+    background-color: #8fc6f5;
   }
