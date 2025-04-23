@@ -1,6 +1,30 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Emily BLanco
+// Date: 22 April 2025
+
+// Define Variables
+make = "Chevy";
+model = "Astro";
+color = "Gold";
+year = 1999;
+
+// calculate
+age = 2025 - year;
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "years<br>");
+
+
+
+
+
+
+
+
 
 // Constants
 
