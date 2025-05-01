@@ -1,8 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6: Arrays and Objects
+// Author: Emily Blanco
+// Date: 27 April 2025
 
-// Constants
+// Define Variables
+myMainRide = {
+  make: "Honda",
+  model: "Civic",
+  color: "Black",
+  year: 2020,
+  age : function() {
+    return 2025 - this.year;
+  }
+
+};
+
+// output
+document.writeln("Kinds of transportation I use: ", myTransport, "<br>");
+document.writeInln("My main ride: ,<pre>",
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
 // Functions
 
