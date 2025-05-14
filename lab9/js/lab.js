@@ -15,6 +15,9 @@ $("#challenge").append("<button id='button-challenge'>Click Me!</button>");
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
 
 // add button to results section
+$("#reflection").append("<button id='button-reflection'>Click Me!</button>");
+
+// add button to results section
 $("#results").append("<button id='button-results'>Click Me!</button>");
 
 // add a click listener to the challenge button
@@ -28,6 +31,14 @@ $("#button-problems").click(function() {
   // add (or subtract) the "special" class to the section
   $("#problems").toggleClass("special");
 });
+
+// add a click listener to the problems button
+$("#button-reflection").click(function() {
+  // add (or subtract) the "special" class to the section
+  $("#reflection").toggleClass("special");
+});
+
+
 // add a click listener to the results button
 $("#button-results").click(function() {
   // add (or subtract) the "special" class to the section
