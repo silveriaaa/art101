@@ -21,6 +21,7 @@ $("#results").append("<button id='button-results'>Click Me!</button>");
 $("#button-challenge").click(function() {
   // add (or subbtract) the "special" class to the section
   $("#challenge").toggleClass("special");
+  console.log("Challenge button clicked");
 });
 // add a click listener to the problems button
 $("#button-problems").click(function() {
