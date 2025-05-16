@@ -4,6 +4,22 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
+    border: solid 1px #6b0000;
+    background-color: #94d6ff;
+  }
+
+  h1 {
+    color: rgb(115, 18, 115);
+    font-size: 300%;
+    font-family: 'trattatello, fantasy';
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.output {
+    background-color: #f0f0f0;
     border: solid 1px #888;
-    background-color: #DDD8C4;
+    padding: 10px;
+    margin-bottom: 10px;
   }
